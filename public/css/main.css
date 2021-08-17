@@ -5,18 +5,20 @@
   box-sizing: border-box;
   list-style-type: none; }
 
-p, li, a {
-  font: 400 12px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+p,
+li,
+a {
+  font: 400 12px "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 18px; }
 
 h5 {
   color: red;
-  font: 600 14px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font: 600 14px "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   padding: 3px 10px; }
 
 h6 {
   color: red;
-  font: 600 12px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font: 600 12px "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   padding-bottom: 5px; }
 
 .book-wrapper {
@@ -70,7 +72,7 @@ header {
   .head .text {
     padding-top: 110px; }
     .head .text p {
-      font: 400 18px 'Libre Franklin', sans-serif;
+      font: 400 18px "Libre Franklin", sans-serif;
       color: #fff; }
   .head h5 {
     display: inline-block;
@@ -107,10 +109,11 @@ main {
           position: relative; }
           main aside .menu ul li a {
             color: white;
-            font: 400 13px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 10px 0;
+            font: 400 13px "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
             text-decoration: none; }
           main aside .menu ul li a.active::after {
-            content: '';
+            content: "";
             position: absolute;
             width: 0;
             height: 0;
@@ -119,13 +122,13 @@ main {
             border-right: 12px solid #faf9f9;
             border-bottom: 10px solid transparent; }
           main aside .menu ul li a.active::before {
-            content: '«';
+            content: "«";
             color: red;
             position: absolute;
             right: -31px;
             top: 8px; }
           main aside .menu ul li a:hover:after {
-            content: '';
+            content: "";
             position: absolute;
             right: -23px;
             width: 0;
@@ -134,7 +137,7 @@ main {
             border-right: 12px solid #faf9f9;
             border-bottom: 10px solid transparent; }
           main aside .menu ul li a:hover:before {
-            content: '«';
+            content: "«";
             color: red;
             position: absolute;
             right: -31px;
@@ -207,7 +210,7 @@ main {
       main .center .quotations a:hover {
         text-decoration: none; }
       main .center .quotations a:before {
-        content: '» '; }
+        content: "» "; }
       main .center .quotations div:last-child {
         padding-bottom: 40px; }
   main .rightside {
@@ -227,7 +230,7 @@ main {
       main .rightside .logos h6:first-child {
         padding-top: 0px; }
       main .rightside .logos a {
-        font: 500 12px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font: 500 12px "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
         color: red; }
     main .rightside .news {
       display: flex;
