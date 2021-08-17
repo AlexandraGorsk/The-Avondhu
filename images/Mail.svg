@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 9" width="13" height="9">
+	<title>Icons</title>
+	<defs>
+		<image  width="13" height="9" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAJAQMAAADTtDQpAAAAAXNSR0IB2cksfwAAAAZQTFRF////////VXz1bAAAAAJ0Uk5T/wDltzBKAAAAIUlEQVR4nGNgYGCwf8AQf4EhfwNDeQFD1gaG2AsgEQYGAGcyB7sYpPgpAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Icons">
+		<use id="Mail" href="#img1" x="0" y="0" />
+	</g>
+</svg>
