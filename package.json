@@ -4,17 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-css": "node-sass --include-path scss scss/main.scss   src/public/css/main.css",
-    "watch-css": "nodemon -e src/scss -x \\\\\\\"npm run build-css\\\\\\\""
+    "build-css": "node-sass --include-path scss src/scss/main.scss   src/public/css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "livereload": "gulp",
+    "dev": "concurrently --kill-others \"npm run livereload\" \"npm run watch-css\""
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.27.5",
+    "concurrently": "^6.2.1",
     "gulp": "^4.0.2",
+    "gulp-livereload": "^4.0.2",
     "gulp-sass": "^5.0.0",
     "node-sass": "^6.0.1",
     "nodemon": "^2.0.12",
     "sass": "^1.38.0"
-  }
+  },
+  "dependencies": {}
 }
